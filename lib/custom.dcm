@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUF602
+D High-Speed,Closed-LoopBuffer
+$ENDCMP
+#
+$CMP CVCO45CL-0100-0140
+D Crystek Voltage Controlled Oscillator-VCO
+$ENDCMP
+#
+$CMP CVCO55CW-0140-0250
+D Crystek Voltage Controlled Oscillator-VCO
+$ENDCMP
+#
+$CMP HMC1031
+D 0.1 MHz to 500 MHz Clock Generatorwith Integer N PLL
+$ENDCMP
+#
+$CMP LT1563-X
+D Active RC, 4th Order Lowpass Filter Family
+$ENDCMP
+#
+$CMP LT1568
+D Very Low Noise,High Frequency Active RC,Filter Building Block
+$ENDCMP
+#
+$CMP RPD-1+
+D Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167
+K phase detector
+F https://www.minicircuits.com/pdfs/RPD-1+.pdf
+$ENDCMP
+#
+$CMP SYPD-1
+D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
+K Phase Detector
+F https://www.minicircuits.com/pdfs/SYPD-1+.pdf
+$ENDCMP
+#
+$CMP SYPD-52
+D Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167
+K Phase Detector
+F https://www.minicircuits.com/pdfs/SYPD-52+.pdf
+$ENDCMP
+#
+#End Doc Library
