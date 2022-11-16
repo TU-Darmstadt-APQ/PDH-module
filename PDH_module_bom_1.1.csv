@@ -1,47 +1,45 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,PN,Config
-1,"Unpolarized capacitor, small symbol",C_Small,C9 C27 C28 C29 C30 C34 C36 C38 C41 C42 C43 C45 C47 C48 C49,100n,C_0603_1608Metric,15,~,,,
-2,"Unpolarized capacitor, small symbol",C_Small,C5 C8,100n,C_1206_3216Metric,2,~,,,
-3,"Unpolarized capacitor, small symbol",C_Small,C2 C3 C10 C11,10u,C_1210_3225Metric,4,~,,,
-4,"Polarized capacitor, small symbol",C_Polarized_Small,C33 C35 C37 C39 C40,100u,CP_Radial_D5.0mm_P2.00mm,5,~,,,
+1,"Unpolarized capacitor, small symbol",C_Small,C9 C27 C28 C29 C30 C34 C36 C38 C41 C42 C43 C45 C47 C48 C49,100n,C_0603_1608Metric,15,~,Kemet,C0603C104K5RECAUTO,
+2,"Unpolarized capacitor, small symbol",C_Small,C5 C8,100n,C_1206_3216Metric,2,~,Kemet,C1206C104K3GEC7210,
+3,"Unpolarized capacitor, small symbol",C_Small,C2 C3 C10 C11,10u,C_1210_3225Metric,4,~,Taiyo Yuden,GMK325BJ106MN-T,
+4,"Polarized capacitor, small symbol",C_Polarized_Small,C33 C35 C37 C39 C40,100u,CP_Radial_D5.0mm_P2.00mm,5,~,Kemet,ESK107M025AC3AA,
 5,"Unpolarized capacitor, small symbol",C_Small,C1 C16 C26 C44 C46 C50 C51,10n(C0G),C_0603_1608Metric,7,~,TDK,C2012C0G1H332J125AA,
 6,Bidirectional transient-voltage-suppression diode,D_TVS,D3 D4,D_TVS,D_SMB,2,~,Bourns,SMBJ40CA-QH,
 7,"Schottky diode, cathode on pins 2 and 3",D_Schottky_AKK,D6,PMEG2010,SOT-23,1,~,Nexperia,"PMEG2010AET,215",
-8,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J1,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,,,
-9,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J2,DDS_Supply,Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock,1,~,,,
-10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J5 J10,PD_In,SMA_Amphenol_132289_EdgeMount,3, ~,,,
-11,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J9,Ref_In_A,SMA_Amphenol_132203-12_Horizontal,2, ~,,,
-12,"Resistor, small symbol",R_Small,R30,4.7,R_0603_1608Metric,1,~,,,
-13,"Resistor, small symbol",R_Small,R24,20,R_0603_1608Metric,1,~,,,
-14,"Resistor, small symbol",R_Small,R16 R19 R29,49.9,R_1210_3225Metric,3,~,,,
-15,"Resistor, small symbol",R_Small,R32A1,62,R_0603_1608Metric,1,~,Yageo,RT0603FRE0762RL,
-16,"Resistor, small symbol",R_Small,R33,100,R_0603_1608Metric,1,~,,,
-17,"Resistor, small symbol",R_Small,R11A1 R12A1 R21A1 R22A1,158,R_0603_1608Metric,4,~,Yageo,RT0603DRE07158RL,
-18,"Resistor, small symbol",R_Small,R2 R20 R31 R31A1,200,R_0603_1608Metric,4,~,,,
-19,"Resistor, small symbol",R_Small,R6 R21 R22 R25 R27 R28 R32,499,R_0603_1608Metric,7,~,Susumu,RR0816P-4990-D-68A,
-20,"Resistor, small symbol",R_Small,R1 R4,49.9k,R_0603_1608Metric,2,~,,,
-21,Trim-potentiometer,R_Potentiometer_Trim,RV1,500,Potentiometer_Vishay_43_Horizontal,1,~,,,
-22,"Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP",ADA4898-2,U7,ADA4898-2,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf,Analog Devices,ADA4898-2YRDZ,
-23,"Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220",LM7809_TO220,U12,LM7808_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,STMicroelectronics,L7808CV,
-24,"Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220",LM7812_TO220,U10,LM7812_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,STMicroelectronics,L7812CV,
-25,"Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7905_TO220,U11,LM7908_TO220,TO-220-3_Horizontal_TabDown,1,http://www.fairchildsemi.com/ds/LM/LM7905.pdf,STMicroelectronics,L7908CV,
-26,,LT1568,U16,LT1568,SSOP-16_3.9x4.9mm_P0.635mm,1,,Analog Devices,LT1568CGN#PBF,
-27,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12",LT3045xMSE,U2,LT3045xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,Analog Devices,LT3094EMSE#PBF,
-28,"-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12",LT3094xMSE,U1,LT3094xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf,Analog Devices,LT3094EMSE#PBF,
-29,"Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8",OPA890xD,U13 U14 U17,OPA695,SOIC-8_3.9x4.9mm_P1.27mm,3,https://www.ti.com/lit/ds/symlink/opa890.pdf,Texas Instruments,OPA695ID,
-30,"Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167",SYPD-1,U15,SYPD-1,Mini-Circuits_TTT167_LandPatternPL-079,1,https://www.minicircuits.com/pdfs/SYPD-1+.pdf,Mini Circuits,SYPD-1+,
+8,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J1,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,09031646921,
+9,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J5 J10,PD_In,SMA_Amphenol_132289_EdgeMount,3, ~,Amphenol,132289,
+10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J9,Ref_In_A,SMA_Amphenol_132134_Vertical,2, ~,Amphenol,132134,
+11,"Resistor, small symbol",R_Small,R30,4.7,R_0603_1608Metric,1,~,Yageo,RT0603FRE074R7L,
+12,"Resistor, small symbol",R_Small,R24,20,R_0603_1608Metric,1,~,Yageo,RC0603FR-0720RL,
+13,"Resistor, small symbol",R_Small,R16 R19 R29,49.9,R_1210_3225Metric,3,~,Yageo,RC1210FR-0749R9L,
+14,"Resistor, small symbol",R_Small,R32A1,62,R_0603_1608Metric,1,~,Yageo,RT0603FRE0762RL,
+15,"Resistor, small symbol",R_Small,R33,100,R_0603_1608Metric,1,~,Yageo,RC0603FR-07100RL,
+16,"Resistor, small symbol",R_Small,R11A1 R12A1 R21A1 R22A1,158,R_0603_1608Metric,4,~,Yageo,RT0603DRE07158RL,
+17,"Resistor, small symbol",R_Small,R2 R20 R31 R31A1,200,R_0603_1608Metric,4,~,Yageo,RC0603FR-07200RL,
+18,"Resistor, small symbol",R_Small,R6 R21 R22 R25 R27 R28 R32,499,R_0603_1608Metric,7,~,Susumu,RR0816P-4990-D-68A,
+19,"Resistor, small symbol",R_Small,R1 R4,49.9k,R_0603_1608Metric,2,~,Yageo,RC0603FR-1049K9L,
+20,Trim-potentiometer,R_Potentiometer_Trim,RV1,500,Potentiometer_Vishay_43_Horizontal,1,~,Vishay,M43P501KB40,
+21,"Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP",ADA4898-2,U7,ADA4898-2,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf,Analog Devices,ADA4898-2YRDZ,
+22,"Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220",LM7809_TO220,U12,LM7808_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,STMicroelectronics,L7808CV,
+23,"Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220",LM7812_TO220,U10,LM7812_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,STMicroelectronics,L7812CV,
+24,"Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7905_TO220,U11,LM7908_TO220,TO-220-3_Horizontal_TabDown,1,http://www.fairchildsemi.com/ds/LM/LM7905.pdf,STMicroelectronics,L7908CV,
+25,,LT1568,U16,LT1568,SSOP-16_3.9x4.9mm_P0.635mm,1,,Analog Devices,LT1568CGN#PBF,
+26,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12",LT3045xMSE,U2,LT3045xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,Analog Devices,LT3094EMSE#PBF,
+27,"-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12",LT3094xMSE,U1,LT3094xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf,Analog Devices,LT3094EMSE#PBF,
+28,"Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8",OPA890xD,U13 U14 U17,OPA695,SOIC-8_3.9x4.9mm_P1.27mm,3,https://www.ti.com/lit/ds/symlink/opa890.pdf,Texas Instruments,OPA695ID,
 
 
 
 
 
-Component Groups:,36
+Component Groups:,35
 Component Count:,86
-Fitted Components:,79
+Fitted Components:,77
 Number of PCBs:,1
-Total components:,79
+Total components:,77
 Schematic Version:,1.1
 Schematic Date:,2022-04-20
 PCB Variant:,default
-BoM Date:,05.09.2022 12:45:22
+BoM Date:,16.11.2022 12:00:04
 Schematic Source:,PDH_module.kicad_sch
-KiCad Version:,Eeschema (6.0.1)
+KiCad Version:,Eeschema (6.0.7)
