@@ -6,8 +6,8 @@
 
   (title_block
     (title "PDH Module")
-    (date "2022-04-20")
-    (rev "1.1")
+    (date "2022-11-16")
+    (rev "1.1.2")
     (company "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
