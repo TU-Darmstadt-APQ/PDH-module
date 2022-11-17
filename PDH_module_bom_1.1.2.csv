@@ -8,7 +8,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 7,"Schottky diode, cathode on pins 2 and 3",D_Schottky_AKK,D6,PMEG2010,SOT-23,1,~,Nexperia,"PMEG2010AET,215",
 8,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J1,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,09031646921,
 9,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J5 J10,PD_In,SMA_Amphenol_132289_EdgeMount,3, ~,Amphenol,132289,
-10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J9,Ref_In_A,SMA_Amphenol_132134_Vertical,2, ~,Amphenol,132134,
+10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J9,Ref_In_A,SMA_Amphenol_132203-12_Horizontal,2, ~,Amphenol,901-143-6RFX,
 11,"Resistor, small symbol",R_Small,R30,4.7,R_0603_1608Metric,1,~,Yageo,RT0603FRE074R7L,
 12,"Resistor, small symbol",R_Small,R24,20,R_0603_1608Metric,1,~,Yageo,RC0603FR-0720RL,
 13,"Resistor, small symbol",R_Small,R16 R19 R29,49.9,R_1210_3225Metric,3,~,Yageo,RC1210FR-0749R9L,
@@ -37,9 +37,9 @@ Component Count:,86
 Fitted Components:,77
 Number of PCBs:,1
 Total components:,77
-Schematic Version:,1.1
-Schematic Date:,2022-04-20
+Schematic Version:,1.1.2
+Schematic Date:,2022-11-16
 PCB Variant:,default
-BoM Date:,16.11.2022 12:00:04
+BoM Date:,17.11.2022 09:56:38
 Schematic Source:,PDH_module.kicad_sch
 KiCad Version:,Eeschema (6.0.7)
