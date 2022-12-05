@@ -24,7 +24,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 23,"Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220",LM7812_TO220,U10,LM7812_TO220,TO-220-3_Vertical,1,http://www.fairchildsemi.com/ds/LM/LM7805.pdf,STMicroelectronics,L7812CV,
 24,"Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220",LM7905_TO220,U11,LM7908_TO220,TO-220-3_Horizontal_TabDown,1,http://www.fairchildsemi.com/ds/LM/LM7905.pdf,STMicroelectronics,L7908CV,
 25,,LT1568,U16,LT1568,SSOP-16_3.9x4.9mm_P0.635mm,1,,Analog Devices,LT1568CGN#PBF,
-26,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12",LT3045xMSE,U2,LT3045xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,Analog Devices,LT3094EMSE#PBF,
+26,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12",LT3045xMSE,U2,LT3045xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,Analog Devices,LT3045EMSE#PBF,
 27,"-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12",LT3094xMSE,U1,LT3094xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf,Analog Devices,LT3094EMSE#PBF,
 28,"Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8",OPA890xD,U13 U14 U17,OPA695,SOIC-8_3.9x4.9mm_P1.27mm,3,https://www.ti.com/lit/ds/symlink/opa890.pdf,Texas Instruments,OPA695ID,
 
@@ -40,6 +40,6 @@ Total components:,77
 Schematic Version:,1.1.2
 Schematic Date:,2022-11-16
 PCB Variant:,default
-BoM Date:,17.11.2022 09:56:38
+BoM Date:,05.12.2022 10:01:05
 Schematic Source:,PDH_module.kicad_sch
 KiCad Version:,Eeschema (6.0.7)
