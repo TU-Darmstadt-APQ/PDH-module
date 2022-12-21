@@ -3,7 +3,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 2,"Unpolarized capacitor, small symbol",C_Small,C5 C8,100n,C_1206_3216Metric,2,~,Kemet,C1206C104K3GEC7210,
 3,"Unpolarized capacitor, small symbol",C_Small,C2 C3 C10 C11,10u,C_1210_3225Metric,4,~,Taiyo Yuden,GMK325BJ106MN-T,
 4,"Polarized capacitor, small symbol",C_Polarized_Small,C33 C35 C37 C39 C40,100u,CP_Radial_D5.0mm_P2.00mm,5,~,Kemet,ESK107M025AC3AA,
-5,"Unpolarized capacitor, small symbol",C_Small,C1 C16 C26 C44 C46 C50 C51,10n(C0G),C_0603_1608Metric,7,~,TDK,C2012C0G1H332J125AA,
+5,"Unpolarized capacitor, small symbol",C_Small,C1 C16 C26 C44 C46 C50 C51,10n(C0G),C_0603_1608Metric,7,~,Murata Electronics,GRM1885C1H103JA01D,
 6,Bidirectional transient-voltage-suppression diode,D_TVS,D3 D4,D_TVS,D_SMB,2,~,Bourns,SMBJ40CA-QH,
 7,"Schottky diode, cathode on pins 2 and 3",D_Schottky_AKK,D6,PMEG2010,SOT-23,1,~,Nexperia,"PMEG2010AET,215",
 8,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J1,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,09031646921,
@@ -40,6 +40,6 @@ Total components:,77
 Schematic Version:,1.1.2
 Schematic Date:,2022-11-16
 PCB Variant:,default
-BoM Date:,05.12.2022 10:01:05
+BoM Date:,21.12.2022 14:31:51
 Schematic Source:,PDH_module.kicad_sch
 KiCad Version:,Eeschema (6.0.7)
