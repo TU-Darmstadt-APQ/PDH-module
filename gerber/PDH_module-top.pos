@@ -1,4 +1,4 @@
-### Module positions - created on Thu Nov 17 09:34:22 2022 ###
+### Module positions - created on Tue Jan 31 14:32:39 2023 ###
 ### Printed by Pcbnew version (6.0.7)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -75,7 +75,7 @@ R31A1     200              R_0603_1608Metric                                    
 R32       499              R_0603_1608Metric                                    189.5000   -85.7000   90.0000  top
 R32A1     62               R_0603_1608Metric                                    222.6000   -66.4250   90.0000  top
 R33       100              R_0603_1608Metric                                    189.5000   -82.5000  -90.0000  top
-RV1       500              Potentiometer_Vishay_43_Horizontal                   225.4000   -96.1000  180.0000  top
+RV1       500              Potentiometer_Vishay_43_Horizontal                   223.8250   -96.1000  180.0000  top
 U1        LT3094xMSE       MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm              108.6000   -88.1000    0.0000  top
 U2        LT3045xMSE       MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm              108.5000  -118.0000    0.0000  top
 U7        ADA4898-2        SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm            198.4000   -68.1000    0.0000  top
