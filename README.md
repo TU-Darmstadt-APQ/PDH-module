@@ -28,7 +28,7 @@ Assembly
 
 
 
-The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and controls of the DDS board are moved to the frontpanel as intended by the manufacturer. Use the [rotary encoder breakout board](https://github.com/TU-Darmstadt-APQ/rotary_encoder_breakout) for this task. See ***frontpanel/*** folder for drawings and BOM.
+The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and controls of the DDS board are moved to the frontpanel as intended by the manufacturer. Use the [rotary encoder breakout board](https://github.com/TU-Darmstadt-APQ/rotary_encoder_breakout) for this task. See `frontpanel/` folder for drawings and BOM.
 
 
 
@@ -48,6 +48,7 @@ Related work
 --------------------
 
 
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
 
 
 
