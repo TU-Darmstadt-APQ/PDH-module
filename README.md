@@ -1,3 +1,5 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/PDH-module/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/PDH-module/actions/workflows/ci.yml)
+
 Digital Pound-Drever-Hall (PDH) module
 ===================
 This repository contains the [KiCad](https://www.kicad.org/) design files of a module for PDH error-signal generation. The PCB is used with a DDS board providing signals for modulation and phase-sensitive demodulation ([Gra&Afch AD9959](https://gra-afch.com/product-tag/dds-ad9959/)).
