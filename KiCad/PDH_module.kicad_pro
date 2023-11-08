@@ -448,7 +448,7 @@
       "idf": "",
       "netlist": "RF_frequency_modulator.net",
       "specctra_dsn": "",
-      "step": "RF_frequency_modulator.step",
+      "step": "PDH_module.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
