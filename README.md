@@ -4,7 +4,7 @@ Digital Pound-Drever-Hall (PDH) module
 ===================
 This repository contains the [KiCad](https://www.kicad.org/) design files of a module for PDH error-signal generation. The PCB is used with a DDS board providing signals for modulation and phase-sensitive demodulation ([Gra&Afch AD9959](https://gra-afch.com/product-tag/dds-ad9959/)).
 
-![PDH-module](PDH_module.png)
+![PDH-module](img/PDH_module.png)
 
 The module features:
 
@@ -22,7 +22,7 @@ The module features:
 Assembly
 --------------------
 
-![case](frontpanel/case.png)
+![case](img/case.png)
 
 The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and controls of the DDS board are moved to the frontpanel as intended by the manufacturer. Use the [rotary encoder breakout board](https://github.com/TU-Darmstadt-APQ/rotary_encoder_breakout) for this task. See `frontpanel/` folder for drawings and BOM.
 
